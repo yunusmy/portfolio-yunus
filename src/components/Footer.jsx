@@ -10,7 +10,7 @@ const Footer = () => {
         {/* Left Side - Copyright Text */}
         <p className="text-sm mt-4 sm:mt-0">
           &copy; 2025
-          <span className="border px-5 ml-2 rounded-full border-white py-[3px]">
+          <span className="border px-5 ml-2 rounded-full border-red-400 py-[3px]">
             / Yunus
           </span>
         </p>

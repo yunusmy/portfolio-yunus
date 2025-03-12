@@ -15,7 +15,7 @@ const Banner = () => {
             <p className="text-gray-300 text-left  mt-3 xl:w-11/12">
               A{" "}
               <span className="text-purple-500 font-semibold">
-                FrontEnd Developer & MERN Stack Specialist.
+                FrontEnd Developer & MERN Stack.
               </span>{" "}
               I'm deeply passionate about creating innovative, responsive, and
               user-friendly web applications that captivate and engage users. I

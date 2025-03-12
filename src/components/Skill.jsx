@@ -51,8 +51,20 @@ const Skill = () => {
 
       {/* Skill Icons Section */}
       <div className="pt-8 pb-14 bg-black text-white px-8 text-center">
-        <div className="xl:w-9/12 mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 place-items-center">
+        <div className="xl:w-9/12 mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7 place-items-center">
           {[
+            {
+              name: "HTML",
+              img: "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+              colorFrom: "#F44336",
+              colorTo: "#FF5733",
+            },
+            {
+              name: "CSS",
+              img: "https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg",
+              colorFrom: "#0000CD",
+              colorTo: "#BBDEFB",
+            },
             {
               name: "JavaScript",
               img: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
@@ -71,23 +83,18 @@ const Skill = () => {
               colorFrom: "#4CAF50",
               colorTo: "#006800",
             },
-            {
-              name: "HTML",
-              img: "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
-              colorFrom: "#F44336",
-              colorTo: "#FF5733",
-            },
-            {
-              name: "CSS",
-              img: "https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg",
-              colorFrom: "#0000CD",
-              colorTo: "#BBDEFB",
-            },
+
             {
               name: "Node.js",
               img: "https://nodejs.org/static/images/logo.svg",
               colorFrom: "#25D366",
               colorTo: "#90EE90",
+            },
+            {
+              name: "Express.js",
+              img: "https://logowik.com/content/uploads/images/express-js1720895493.logowik.com.webp",
+              colorFrom: "#D3D3D3",
+              colorTo: "#808080",
             },
             {
               name: "Tailwind CSS",
@@ -101,12 +108,7 @@ const Skill = () => {
               colorFrom: "#8B0000",
               colorTo: "#FF4500",
             },
-            {
-              name: "Express.js",
-              img: "https://logowik.com/content/uploads/images/express-js1720895493.logowik.com.webp",
-              colorFrom: "#D3D3D3",
-              colorTo: "#808080",
-            },
+
             {
               name: "Git",
               img: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.svg",

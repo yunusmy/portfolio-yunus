@@ -29,7 +29,7 @@ const NavBar = () => {
               <NavLink
                 to={href}
                 className={({ isActive }) =>
-                  `block px-4 border-b border-purple-600 py-2 rounded-full transition ${
+                  `block px-4 border-b border-red-200 py-2 rounded-full transition ${
                     isActive ? "bg-red-600 text-white" : "hover:bg-[#7A34F2]"
                   }`
                 }
@@ -51,8 +51,10 @@ const NavBar = () => {
           <BorderBeam
             size={300}
             duration={20}
-            colorFrom="#7A34F2"
-            colorTo="#87CEEB"
+            // colorFrom="#7A34F2"
+            // colorTo="#87CEEB"
+            colorFrom={"#015551"}
+            colorTo={"#FE4F2D"}
           />
         </a>
 
