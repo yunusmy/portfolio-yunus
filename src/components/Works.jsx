@@ -1,28 +1,29 @@
 import Swal from "sweetalert2";
-import funding from "../assets/funding.png";
 import marage from "../assets/marage.png";
-import marathon from "../assets/marathon.png";
+import marathon from "../assets/Screenshot_1.png";
+import funding from "../assets/Screenshot_2.png";
 
 const Works = () => {
   const projects = [
     {
       title: "Find Partners",
       image: marage,
-      link: "https://find-partners-f5bda.web.app/",
+      link: "https://assignment12-8f02d.web.app/",
       date: "January 2025",
       tech: "React, Firebase, Tailwind CSS, mongodb , nodejs, express",
     },
     {
       title: "Marathon Management",
       image: marathon,
-      link: "https://marathon-management-f25a3.web.app/",
+
+      link: "https://assignment-client-fdd9c.web.app/",
       date: "December 2024",
       tech: "React, Node.js, Express.js, MongoDB, Tailwind CSS",
     },
     {
-      title: "Funding Application",
+      title: " Donation Campaigns",
       image: funding,
-      link: "https://funding-application-e2023.web.app/",
+      link: "https://assignment-10-dad9f.web.app/",
       date: "December 2024",
       tech: "React, Node.js, Express.js, MongoDB, Tailwind CSS",
     },
@@ -41,7 +42,7 @@ const Works = () => {
   return (
     <div
       id="work"
-      className="bg-black text-white py-14 px-6 flex flex-col items-center"
+      className="bg-black text-white py-5 px-6 flex flex-col items-center"
     >
       <h2 className="text-4xl text-center uppercase tracking-wide">My Works</h2>
       <p className="mb-14 mt-5 text-center">

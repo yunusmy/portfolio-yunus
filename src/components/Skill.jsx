@@ -6,7 +6,7 @@ const Skill = () => {
   return (
     <div id="skill" className="pb-10 pt-8 bg-black">
       {/* Header Section */}
-      <div className="flex items-center justify-center pt-14 pb-14 bg-black text-white px-8 text-center">
+      <div className="flex items-center justify-center pt-8 pb-14 bg-black text-white px-8 text-center">
         <div>
           <h1 className="text-4xl mb-4 font-bold">Skills That Define Me</h1>
           <p className="text-xl pb-5">
